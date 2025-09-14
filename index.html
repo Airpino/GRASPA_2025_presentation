@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRASPA 2025 Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation">
+        <div class="slide active" id="slide-1">
+            <h1>GRASPA 2025 Presentation</h1>
+            <h2>Rome SIS Meeting - September 2025</h2>
+            <div class="slide-content">
+                <p>Welcome to the GRASPA presentation at the Statistical Information Systems meeting in Rome.</p>
+            </div>
+            <div class="navigation">
+                <button onclick="nextSlide()">Next →</button>
+            </div>
+        </div>
+
+        <div class="slide" id="slide-2">
+            <h1>Slide 2</h1>
+            <div class="slide-content">
+                <h3>Content Section</h3>
+                <ul>
+                    <li>First key point</li>
+                    <li>Second key point</li>
+                    <li>Third key point</li>
+                </ul>
+            </div>
+            <div class="navigation">
+                <button onclick="prevSlide()">← Previous</button>
+                <button onclick="nextSlide()">Next →</button>
+            </div>
+        </div>
+
+        <div class="slide" id="slide-3">
+            <h1>Slide 3</h1>
+            <div class="slide-content">
+                <h3>Results and Conclusions</h3>
+                <p>Summary of findings and future directions.</p>
+            </div>
+            <div class="navigation">
+                <button onclick="prevSlide()">← Previous</button>
+                <button onclick="nextSlide()">Next →</button>
+            </div>
+        </div>
+
+        <div class="slide" id="slide-4">
+            <h1>Thank You</h1>
+            <div class="slide-content">
+                <h2>Questions & Discussion</h2>
+                <p>GRASPA SIS Meeting</p>
+                <p>Rome, September 2025</p>
+            </div>
+            <div class="navigation">
+                <button onclick="prevSlide()">← Previous</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-counter">
+        <span id="current-slide">1</span> / <span id="total-slides">4</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
